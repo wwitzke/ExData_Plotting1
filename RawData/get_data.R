@@ -4,9 +4,7 @@ library(stringr);
 
 #   This gets the data from the remote host (if necessary) and writes a
 #   timestamp to a text file describing when the file was downloaded (if the
-#   download was necessary). It returns the time stamp describing when the file
-#   was downloaded (this may have been read from an existing file if no
-#   download was necessary).
+#   download was necessary). 
 my_timestamp = "TimeStamp.txt";
 input.file = "RawDataset.zip";
 
