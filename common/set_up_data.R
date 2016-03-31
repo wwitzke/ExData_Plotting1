@@ -1,8 +1,7 @@
 #!/usr/bin/R --silent -f
 
-#   The function in this file will read a variable from the source file,
-#   hardcoded herein, and returns a data.table containing the data from the
-#   file.
+#   This function will read an input data file, the name of which is hardcoded
+#   herein, and return a data.table containing the data from the file.
 library( data.table );
 suppressWarnings( library( lubridate ) );
 
